@@ -1,9 +1,39 @@
 body {
-  background: #000;
-  color: #fff;
-  padding: 25px;
-  font-family: sans-serif;
+    position: relative;
+    font-size: 18px;
+    color: #363636;
+    line-height: 150%;
+    font-family: 'Open Sans', sans-serif;
 }
+
+header {
+  width: 100%;
+}
+
+p {
+  padding-bottom: 30px;
+} 
+h4 {
+  text-align: center;
+  color: #46403E;
+  font-size: 56px;
+  font-weight: 50;
+}
+
+
+.PageLink {
+  font-size: 25px;
+  border: 1px solid #EC0B0B;
+  background-color: #EC0B0B;
+  display: block;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  color: #fff;
+  height: 80px;
+  width: 500px;
+  text-decoration: none;
+}
+
 
 .SecHeader {
   color: grey;
@@ -12,4 +42,23 @@ body {
 
 .subtext { 
   text-align: center;
+}
+
+.Packin {
+  height: 2000;
+  width: 1053;
+  max-width: 100%;
+}
+
+.MainTeam {
+  max-width: 100%;
+  height: auto;
+}
+
+.Kid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: static;
+  width: 50%;
 }
