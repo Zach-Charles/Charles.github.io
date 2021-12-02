@@ -20,6 +20,14 @@ h4 {
   font-weight: 50;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.Non {
+  color: blue;
+}
 
 .PageLink {
   font-size: 25px;
@@ -31,7 +39,6 @@ h4 {
   color: #fff;
   height: 80px;
   width: 500px;
-  text-decoration: none;
 }
 
 
@@ -61,4 +68,12 @@ h4 {
   margin-right: auto;
   position: static;
   width: 50%;
+}
+
+.ingredients {
+  font-size: 1.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 110%;
+  margin-top: 0;
 }
