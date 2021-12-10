@@ -9,7 +9,12 @@ body {
 p {
   padding-bottom: 30px;
   display: block;
-} 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
 h4 {
   text-align: center;
   color: #46403E;
@@ -27,11 +32,22 @@ a {
      margin: -2em;
 }
 
+table {
+  border-spacing: 10px;
+}
+
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .scratch {
      position: absolute;
      bottom: 10px;
      left: 10px;
-     color: black;
+     color: white;
 }
 
 .scratch#hover {
@@ -120,6 +136,17 @@ a {
   line-height: 110%;
   margin-top: 0;
 }
+
+.Events {
+  background-color: #EC0B0B;
+  color: #fff; 
+  text-align: center;
+}
+
+p .Events {
+  margin-left: 1em;
+}
+
 
 #header {
      position: fixed;
