@@ -4,6 +4,9 @@ body {
     color: #363636;
     line-height: 150%;
     font-family: 'Open Sans', sans-serif;
+    padding: 0 0 40px;
+    margin: 0 auto;
+
 }
 
 p {
