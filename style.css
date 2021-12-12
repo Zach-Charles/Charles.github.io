@@ -6,7 +6,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     padding: 0 0 40px;
     margin: 0 auto;
-
+    width: 995px;
+    max-width: 98%;
 }
 
 p {
